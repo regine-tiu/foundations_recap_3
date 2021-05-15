@@ -5,7 +5,7 @@ def no_dupes?(arr)
   hash.each do |k, v|
     new_arr << k if v == 1
   end  
-  p new_arr
+  new_arr
 end  
 
 no_dupes?([1, 1, 2, 1, 3, 2, 4])         # => [3, 4]
